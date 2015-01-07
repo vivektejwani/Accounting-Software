@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPopupMenu" name="pm">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="51" pref="51" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="back_btn" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
+                              <Component id="new_stud_label" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="name_label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                              <Component id="name_text" linkSize="1" pref="150" max="32767" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="address_label" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="father_label" min="-2" max="-2" attributes="0"/>
+                              <Component id="surname_label" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="father_text" linkSize="1" max="32767" attributes="0"/>
+                              <Component id="surname_text" alignment="0" max="32767" attributes="0"/>
+                              <Component id="email_text" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="mother_label" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="dob_label" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="mother_text" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="contact_label" min="-2" max="-2" attributes="0"/>
+                                      <Component id="school_label" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="board_label" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="dob_choose" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" pref="17" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="clear_btn" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="next_btn" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="parent_email_text" max="32767" attributes="0"/>
+                              <Component id="contact_text" alignment="0" max="32767" attributes="0"/>
+                              <Component id="address_text" alignment="0" max="32767" attributes="0"/>
+                              <Component id="parent_contact_text" alignment="1" pref="180" max="32767" attributes="0"/>
+                              <Component id="school_text" alignment="1" pref="180" max="32767" attributes="0"/>
+                              <Component id="board_box" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="new_stud_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="back_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="name_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="name_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="address_label" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="surname_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="surname_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="contact_label" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="father_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="father_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="email_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="parent_email_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="mother_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="mother_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="school_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="dob_label" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="board_label" min="-2" max="-2" attributes="0"/>
+                                      <Component id="dob_choose" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="address_text" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="contact_text" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="parent_contact_text" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                          <Component id="school_text" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="board_box" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="clear_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="next_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" pref="137" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="new_stud_label">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Grande" size="24" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Create a new student"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="name_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Name :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="father_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Father&apos;s name :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mother_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mother&apos;s name :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="dob_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Date of Birth :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="name_text">
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="name_textKeyPressed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="surname_text">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="surname_textActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="father_text">
+        </Component>
+        <Component class="javax.swing.JTextField" name="mother_text">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mother_textActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="dob_choose">
+          <Properties>
+            <Property name="dateFormatString" type="java.lang.String" value="yyyy-MM-dd"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="address_label">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Grande" size="12" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Address :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="address_text">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="address_textActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="contact_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Contact No :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="contact_text">
+        </Component>
+        <Component class="javax.swing.JButton" name="back_btn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Back"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="back_btnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="school_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="School :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="school_text">
+        </Component>
+        <Component class="javax.swing.JComboBox" name="board_box">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="S.S.C"/>
+                <StringItem index="1" value="I.C.S.E"/>
+                <StringItem index="2" value="C.B.S.E"/>
+                <StringItem index="3" value="Other"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="board_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Board :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="clear_btn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Clear"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clear_btnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="next_btn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Next"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="next_btnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="surname_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Surname :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Contact No :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="parent_contact_text">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E-mail ID :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="email_text">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Parent&apos;s Email :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="parent_email_text">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="265" max="-2" attributes="0"/>
+                  <Component id="new_stud_label1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="270" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="82" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="course_label" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="percent_label" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="occupation1_label" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="occupation2_label" min="-2" max="-2" attributes="0"/>
+                      <Component id="occupation3_label" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="occupation4_label" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="course_box" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="percent_text" min="-2" pref="60" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="percent_sign_label" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="reg_no_text" alignment="0" max="32767" attributes="0"/>
+                      <Component id="occupation2_text" alignment="0" max="32767" attributes="0"/>
+                      <Component id="occupation1_text" alignment="0" pref="200" max="32767" attributes="0"/>
+                      <Component id="pay_type_box" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="edu_cess_label1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="edu_cess_label2" min="-2" pref="120" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="fees1_label" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="total_label1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="other_label1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                                  <Component id="fees_label2" min="-2" pref="120" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="other_label2" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                                      <Component id="total_label2" alignment="1" min="-2" pref="120" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="clear2_btn" min="-2" max="-2" attributes="0"/>
+                              <Component id="pay_ltr_btn" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="pay_now_btn" min="-2" max="-2" attributes="0"/>
+                              <Component id="save_btn" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                  <Component id="new_stud_label1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="fees_label2" alignment="0" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="course_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="course_box" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fees1_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="percent_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="percent_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="percent_sign_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="edu_cess_label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="edu_cess_label2" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="occupation1_label" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="occupation2_label" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="occupation1_text" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="other_label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="other_label2" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="occupation3_label" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="occupation4_label" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="occupation2_text" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="total_label1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="total_label2" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="save_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="clear2_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="pay_now_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="pay_ltr_btn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="reg_no_text" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="pay_type_box" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="55" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="new_stud_label1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Grande" size="24" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Create a new student"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="course_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Course :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="course_box">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="1">
+                <StringItem index="0" value="Choose"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="course_boxActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="percent_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Percentage :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="percent_text">
+        </Component>
+        <Component class="javax.swing.JLabel" name="percent_sign_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="%"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="occupation1_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Father&apos;s "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="occupation1_text">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="occupation1_textActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="occupation2_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Occupation :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="save_btn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Save"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="save_btnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="clear2_btn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Clear"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clear2_btnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="occupation3_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mother&apos;s"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="occupation4_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Occupation :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="occupation2_text">
+        </Component>
+        <Component class="javax.swing.JLabel" name="fees1_label">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fees :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="edu_cess_label1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Educational Cess :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="other_label1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Other Tax :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="total_label1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Grand Total :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="fees_label2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rs."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="edu_cess_label2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rs."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="other_label2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rs."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="total_label2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Rs."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="pay_now_btn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pay Now"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pay_now_btnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="pay_ltr_btn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pay Later"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pay_ltr_btnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Registration"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Number :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="reg_no_text">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Type of "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Payment :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="pay_type_box">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="Choose"/>
+                <StringItem index="1" value="Monthly"/>
+                <StringItem index="2" value="Quarterly"/>
+                <StringItem index="3" value="Half-yearly"/>
+                <StringItem index="4" value="Annually"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
